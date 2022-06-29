@@ -12,11 +12,12 @@
 ####################################
 ui <- fluidPage(theme = shinytheme("united"),shinyjs::useShinyjs(),
 								# Page header
+								headerPanel('A.I. for SARS-COV-2 Variant Predictions'),
 								tags$style(
 									type = 'text/css',
 									'table.dataTable td {white-space: nowrap;}'
 								),
-								headerPanel('AI for SARS-COV-2 Variant Predictions'),
+								
 								
 								# Input values
 								sidebarPanel(
